@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+
+# Python virtual environments
+.venv/
+venv/
+
+# Node / React
+node_modules/
+dist/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Backup files
+*.bak
+*.bak*
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Accidental files
+/759
+/re
+/uv
+
+# Generated directory listings
+/project-structure.txt
+/structure.txt
+
+# Archive copies
+/*.zip
