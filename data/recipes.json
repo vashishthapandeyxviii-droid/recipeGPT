@@ -1,0 +1,520 @@
+[
+  {
+    "id": 1,
+    "name": "Aloo Tomato Curry",
+    "category": "main",
+    "difficulty": "easy",
+    "cooking_time_minutes": 30,
+    "servings": 4,
+    "ingredients": [
+      {"name": "potato", "quantity": 500, "unit": "g"},
+      {"name": "tomato", "quantity": 300, "unit": "g"},
+      {"name": "chili", "quantity": 2, "unit": null},
+      {"name": "oil", "quantity": 2, "unit": "tbsp"},
+      {"name": "salt", "quantity": null, "unit": "to taste"}
+    ],
+    "instructions": [
+      "Peel the potatoes and cut them into 2 cm cubes. Chop the tomatoes and slice the chilies.",
+      "Heat the oil in a pan over medium heat and fry the chilies for 30 seconds.",
+      "Add the tomatoes and a pinch of salt. Cook for 5 minutes until soft and mushy.",
+      "Add the potatoes, stir well, cover, and cook on low heat for 15-20 minutes, stirring now and then, until the potatoes are tender.",
+      "Add salt to taste and serve hot."
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Masala Potato",
+    "category": "side",
+    "difficulty": "easy",
+    "cooking_time_minutes": 30,
+    "servings": 4,
+    "ingredients": [
+      {"name": "potato", "quantity": 500, "unit": "g"},
+      {"name": "onion", "quantity": 2, "unit": null},
+      {"name": "chili", "quantity": 2, "unit": null},
+      {"name": "oil", "quantity": 3, "unit": "tbsp"},
+      {"name": "salt", "quantity": null, "unit": "to taste"}
+    ],
+    "instructions": [
+      "Peel the potatoes and cut them into 1.5 cm cubes. Slice the onions and chilies.",
+      "Heat the oil in a wide pan and fry the onions and chilies for about 5 minutes until soft and golden.",
+      "Add the potatoes and salt, and stir to coat them.",
+      "Cook covered on medium-low heat for 15 minutes, stirring often so the potatoes do not stick.",
+      "Uncover and cook 5 more minutes until the potatoes are golden and tender. Serve hot."
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Tomato Chili Soup",
+    "category": "soup",
+    "difficulty": "easy",
+    "cooking_time_minutes": 20,
+    "servings": 2,
+    "ingredients": [
+      {"name": "tomato", "quantity": 400, "unit": "g"},
+      {"name": "chili", "quantity": 1, "unit": null},
+      {"name": "water", "quantity": 400, "unit": "ml"},
+      {"name": "salt", "quantity": null, "unit": "to taste"}
+    ],
+    "instructions": [
+      "Roughly chop the tomatoes and the chili.",
+      "Put them in a pot with the water and bring to a boil.",
+      "Simmer for 10 minutes until the tomatoes are very soft.",
+      "Blend until smooth, return to the pot, and season with salt. Reheat for 2 minutes and serve."
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Spicy Potato Toast",
+    "category": "snack",
+    "difficulty": "easy",
+    "cooking_time_minutes": 20,
+    "servings": 2,
+    "ingredients": [
+      {"name": "potato", "quantity": 2, "unit": null},
+      {"name": "bread", "quantity": 4, "unit": "slice"},
+      {"name": "chili", "quantity": 1, "unit": null},
+      {"name": "salt", "quantity": null, "unit": "to taste"}
+    ],
+    "instructions": [
+      "Cook the potatoes until soft (boil or steam them), then peel them.",
+      "Mash the potatoes with the finely chopped chili and salt.",
+      "Spread the mixture evenly over the bread slices.",
+      "Toast under a grill or in a toaster oven for 3-4 minutes until the edges are crisp. Serve warm."
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Simple Tomato Rice",
+    "category": "main",
+    "difficulty": "easy",
+    "cooking_time_minutes": 25,
+    "servings": 3,
+    "ingredients": [
+      {"name": "rice", "quantity": 450, "unit": "g", "note": "cooked"},
+      {"name": "tomato", "quantity": 3, "unit": null},
+      {"name": "onion", "quantity": 1, "unit": null},
+      {"name": "chili", "quantity": 2, "unit": null},
+      {"name": "oil", "quantity": 1, "unit": "tbsp"},
+      {"name": "salt", "quantity": null, "unit": "to taste"}
+    ],
+    "instructions": [
+      "Chop the onion and tomatoes, and slice the chilies.",
+      "Heat the oil in a pan and cook the onion for about 4 minutes until soft.",
+      "Add the chilies, tomatoes, and salt. Cook for 8 minutes until the tomatoes turn pulpy.",
+      "Add the cooked rice and mix gently for 3 minutes until heated through. Serve hot."
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Vegetable Fried Rice",
+    "category": "main",
+    "difficulty": "easy",
+    "cooking_time_minutes": 20,
+    "servings": 3,
+    "ingredients": [
+      {"name": "rice", "quantity": 450, "unit": "g", "note": "cooked, cooled"},
+      {"name": "egg", "quantity": 2, "unit": null},
+      {"name": "carrot", "quantity": 1, "unit": null},
+      {"name": "pea", "quantity": 100, "unit": "g"},
+      {"name": "onion", "quantity": 1, "unit": null},
+      {"name": "oil", "quantity": 2, "unit": "tbsp"},
+      {"name": "salt", "quantity": null, "unit": "to taste"}
+    ],
+    "instructions": [
+      "Dice the carrot and onion. Make sure the cooked rice is cool and not clumpy.",
+      "Heat 1 tablespoon of the oil, scramble the eggs until just set, and move them to a plate.",
+      "Add the remaining oil to the pan and fry the onion and carrot for 4 minutes. Add the peas and cook 2 more minutes.",
+      "Add the rice and salt, and stir-fry on high heat for 4 minutes.",
+      "Fold the scrambled eggs back in and serve immediately."
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Egg Curry",
+    "category": "main",
+    "difficulty": "medium",
+    "cooking_time_minutes": 35,
+    "servings": 3,
+    "ingredients": [
+      {"name": "egg", "quantity": 4, "unit": null},
+      {"name": "onion", "quantity": 2, "unit": null},
+      {"name": "tomato", "quantity": 2, "unit": null},
+      {"name": "chili", "quantity": 2, "unit": null},
+      {"name": "turmeric", "quantity": 0.5, "unit": "tsp"},
+      {"name": "oil", "quantity": 2, "unit": "tbsp"},
+      {"name": "salt", "quantity": null, "unit": "to taste"}
+    ],
+    "instructions": [
+      "Hard-boil the eggs for 10 minutes, cool them in cold water, and peel them.",
+      "Finely chop the onions and tomatoes, and slice the chilies.",
+      "Heat the oil and fry the onions for about 6 minutes until golden.",
+      "Add the chilies, turmeric, tomatoes, and salt. Cook for 8 minutes until the mixture is thick and the oil separates.",
+      "Add the whole boiled eggs, turn them to coat in the masala, and cook 3 minutes. Serve hot."
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Masoor Dal",
+    "category": "main",
+    "difficulty": "easy",
+    "cooking_time_minutes": 30,
+    "servings": 4,
+    "ingredients": [
+      {"name": "lentil", "quantity": 200, "unit": "g"},
+      {"name": "onion", "quantity": 1, "unit": null},
+      {"name": "tomato", "quantity": 2, "unit": null},
+      {"name": "garlic", "quantity": 3, "unit": "clove"},
+      {"name": "turmeric", "quantity": 0.5, "unit": "tsp"},
+      {"name": "oil", "quantity": 2, "unit": "tbsp"},
+      {"name": "salt", "quantity": null, "unit": "to taste"},
+      {"name": "water", "quantity": 800, "unit": "ml"}
+    ],
+    "instructions": [
+      "Rinse the lentils until the water runs mostly clear.",
+      "Boil the lentils with the water and turmeric for 15-20 minutes until completely soft, skimming off any foam.",
+      "Meanwhile, chop the onion and tomatoes and crush the garlic.",
+      "Heat the oil, fry the garlic for 30 seconds, then add the onion and cook 5 minutes. Add the tomatoes and cook 5 minutes until mushy.",
+      "Stir the fried mixture and salt into the dal and simmer for 5 minutes. Serve hot."
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Masala Omelette",
+    "category": "breakfast",
+    "difficulty": "easy",
+    "cooking_time_minutes": 10,
+    "servings": 2,
+    "ingredients": [
+      {"name": "egg", "quantity": 4, "unit": null},
+      {"name": "onion", "quantity": 1, "unit": null},
+      {"name": "chili", "quantity": 1, "unit": null},
+      {"name": "oil", "quantity": 1, "unit": "tbsp"},
+      {"name": "salt", "quantity": null, "unit": "to taste"}
+    ],
+    "instructions": [
+      "Finely chop the onion and chili.",
+      "Beat the eggs with salt, then stir in the onion and chili.",
+      "Heat the oil in a non-stick pan and pour in the mixture.",
+      "Cook for 2 minutes until the base is set, flip, and cook 1-2 more minutes. Serve hot."
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Scrambled Eggs on Toast",
+    "category": "breakfast",
+    "difficulty": "easy",
+    "cooking_time_minutes": 10,
+    "servings": 2,
+    "ingredients": [
+      {"name": "egg", "quantity": 4, "unit": null},
+      {"name": "bread", "quantity": 4, "unit": "slice"},
+      {"name": "butter", "quantity": 20, "unit": "g"},
+      {"name": "salt", "quantity": null, "unit": "to taste"}
+    ],
+    "instructions": [
+      "Toast the bread slices.",
+      "Whisk the eggs with a pinch of salt.",
+      "Melt the butter in a pan over low heat, pour in the eggs, and stir gently for 2-3 minutes until softly set.",
+      "Spoon the eggs onto the toast and serve right away."
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Cheese Toast",
+    "category": "snack",
+    "difficulty": "easy",
+    "cooking_time_minutes": 10,
+    "servings": 2,
+    "ingredients": [
+      {"name": "bread", "quantity": 4, "unit": "slice"},
+      {"name": "cheese", "quantity": 100, "unit": "g"},
+      {"name": "butter", "quantity": 15, "unit": "g"}
+    ],
+    "instructions": [
+      "Heat the grill. Grate the cheese.",
+      "Lightly butter one side of each bread slice and grill the unbuttered sides for 1 minute.",
+      "Turn the slices over, pile the cheese on the buttered sides, and grill 3-4 minutes until melted and bubbling. Serve hot."
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Paneer Bhurji",
+    "category": "main",
+    "difficulty": "easy",
+    "cooking_time_minutes": 20,
+    "servings": 3,
+    "ingredients": [
+      {"name": "paneer", "quantity": 250, "unit": "g"},
+      {"name": "onion", "quantity": 1, "unit": null},
+      {"name": "tomato", "quantity": 1, "unit": null},
+      {"name": "chili", "quantity": 2, "unit": null},
+      {"name": "turmeric", "quantity": 0.25, "unit": "tsp"},
+      {"name": "oil", "quantity": 1, "unit": "tbsp"},
+      {"name": "salt", "quantity": null, "unit": "to taste"}
+    ],
+    "instructions": [
+      "Crumble the paneer with your hands. Finely chop the onion, tomato, and chilies.",
+      "Heat the oil and fry the onion for 4 minutes until soft. Add the chilies and cook 1 minute.",
+      "Add the tomato, turmeric, and salt, and cook 3 minutes until soft.",
+      "Add the crumbled paneer and cook for 4 minutes, stirring, until heated through. Serve hot."
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Palak Paneer",
+    "category": "main",
+    "difficulty": "medium",
+    "cooking_time_minutes": 35,
+    "servings": 3,
+    "ingredients": [
+      {"name": "spinach", "quantity": 400, "unit": "g"},
+      {"name": "paneer", "quantity": 200, "unit": "g"},
+      {"name": "onion", "quantity": 1, "unit": null},
+      {"name": "garlic", "quantity": 3, "unit": "clove"},
+      {"name": "oil", "quantity": 2, "unit": "tbsp"},
+      {"name": "salt", "quantity": null, "unit": "to taste"}
+    ],
+    "instructions": [
+      "Wash the spinach well. Cook it covered in a pan over medium heat for 4-5 minutes until wilted, then blend to a coarse puree.",
+      "Cut the paneer into cubes. Finely chop the onion and crush the garlic.",
+      "Heat the oil and brown the paneer cubes lightly for 3-4 minutes. Remove and set aside.",
+      "In the same pan, fry the garlic for 30 seconds, then the onion for 6 minutes until golden.",
+      "Add the spinach puree and salt, and simmer for 5 minutes. Add the paneer and simmer 3 more minutes. Serve hot."
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Chicken Curry",
+    "category": "main",
+    "difficulty": "medium",
+    "cooking_time_minutes": 50,
+    "servings": 4,
+    "ingredients": [
+      {"name": "chicken", "quantity": 600, "unit": "g"},
+      {"name": "onion", "quantity": 2, "unit": null},
+      {"name": "tomato", "quantity": 2, "unit": null},
+      {"name": "garlic", "quantity": 4, "unit": "clove"},
+      {"name": "ginger", "quantity": 20, "unit": "g"},
+      {"name": "turmeric", "quantity": 1, "unit": "tsp"},
+      {"name": "oil", "quantity": 3, "unit": "tbsp"},
+      {"name": "salt", "quantity": null, "unit": "to taste"},
+      {"name": "water", "quantity": 200, "unit": "ml"}
+    ],
+    "instructions": [
+      "Cut the chicken into bite-sized pieces. Finely chop the onions and tomatoes, and crush the garlic and ginger together into a paste.",
+      "Heat the oil and fry the onions for 8 minutes until deep golden.",
+      "Add the garlic-ginger paste and cook 1 minute, then add the turmeric and tomatoes. Cook 6 minutes until the tomatoes break down.",
+      "Add the chicken and salt, and stir for 5 minutes to seal the pieces.",
+      "Pour in the water, cover, and simmer 20-25 minutes until the chicken is cooked through and the sauce is thick. Serve hot."
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Khichdi",
+    "category": "main",
+    "difficulty": "easy",
+    "cooking_time_minutes": 30,
+    "servings": 3,
+    "ingredients": [
+      {"name": "rice", "quantity": 150, "unit": "g"},
+      {"name": "lentil", "quantity": 100, "unit": "g"},
+      {"name": "turmeric", "quantity": 0.5, "unit": "tsp"},
+      {"name": "oil", "quantity": 1, "unit": "tbsp"},
+      {"name": "salt", "quantity": null, "unit": "to taste"},
+      {"name": "water", "quantity": 900, "unit": "ml"}
+    ],
+    "instructions": [
+      "Rinse the rice and lentils together until the water runs mostly clear.",
+      "Put them in a pot with the water, turmeric, and salt, and bring to a boil.",
+      "Cover and simmer on low heat for 20-25 minutes, stirring occasionally, until soft and porridge-like.",
+      "Stir in the oil and serve hot."
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Tomato Garlic Pasta",
+    "category": "main",
+    "difficulty": "easy",
+    "cooking_time_minutes": 25,
+    "servings": 2,
+    "ingredients": [
+      {"name": "pasta", "quantity": 200, "unit": "g"},
+      {"name": "tomato", "quantity": 400, "unit": "g"},
+      {"name": "garlic", "quantity": 3, "unit": "clove"},
+      {"name": "oil", "quantity": 2, "unit": "tbsp"},
+      {"name": "cheese", "quantity": 30, "unit": "g"},
+      {"name": "salt", "quantity": null, "unit": "to taste"}
+    ],
+    "instructions": [
+      "Cook the pasta in a large pot of salted boiling water until al dente, then drain.",
+      "Chop the tomatoes and slice the garlic. Grate the cheese.",
+      "Heat the oil, cook the garlic for 30 seconds, then add the tomatoes and a pinch of salt. Simmer 10 minutes until saucy.",
+      "Toss the pasta in the sauce and serve topped with the cheese."
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Aloo Jeera",
+    "category": "side",
+    "difficulty": "easy",
+    "cooking_time_minutes": 30,
+    "servings": 3,
+    "ingredients": [
+      {"name": "potato", "quantity": 400, "unit": "g"},
+      {"name": "cumin", "quantity": 1, "unit": "tsp"},
+      {"name": "turmeric", "quantity": 0.25, "unit": "tsp"},
+      {"name": "oil", "quantity": 2, "unit": "tbsp"},
+      {"name": "salt", "quantity": null, "unit": "to taste"}
+    ],
+    "instructions": [
+      "Boil the whole potatoes for about 15 minutes until just tender, then cool, peel, and cut into cubes.",
+      "Heat the oil and add the cumin. Let it sizzle for 20 seconds.",
+      "Add the turmeric, potatoes, and salt.",
+      "Fry for 6-8 minutes, turning occasionally, until golden at the edges. Serve hot."
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Mashed Potatoes",
+    "category": "side",
+    "difficulty": "easy",
+    "cooking_time_minutes": 25,
+    "servings": 4,
+    "ingredients": [
+      {"name": "potato", "quantity": 700, "unit": "g"},
+      {"name": "butter", "quantity": 40, "unit": "g"},
+      {"name": "milk", "quantity": 100, "unit": "ml"},
+      {"name": "salt", "quantity": null, "unit": "to taste"}
+    ],
+    "instructions": [
+      "Peel the potatoes, cut them into chunks, and boil in salted water for 15-20 minutes until very tender. Drain well.",
+      "Warm the milk with the butter until the butter melts.",
+      "Mash the potatoes, then beat in the milk and butter until smooth. Add salt to taste."
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Vegetable Soup",
+    "category": "soup",
+    "difficulty": "easy",
+    "cooking_time_minutes": 35,
+    "servings": 4,
+    "ingredients": [
+      {"name": "carrot", "quantity": 2, "unit": null},
+      {"name": "potato", "quantity": 2, "unit": null},
+      {"name": "onion", "quantity": 1, "unit": null},
+      {"name": "butter", "quantity": 20, "unit": "g"},
+      {"name": "water", "quantity": 1000, "unit": "ml"},
+      {"name": "salt", "quantity": null, "unit": "to taste"}
+    ],
+    "instructions": [
+      "Peel and dice the carrots, potatoes, and onion.",
+      "Melt the butter in a pot and cook the onion for 3 minutes. Add the carrots and potatoes and stir for 2 minutes.",
+      "Add the water and salt, bring to a boil, then simmer 20 minutes until the vegetables are tender.",
+      "Mash a few pieces against the side of the pot to thicken the soup slightly. Serve hot."
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Cucumber Raita",
+    "category": "side",
+    "difficulty": "easy",
+    "cooking_time_minutes": 10,
+    "servings": 4,
+    "ingredients": [
+      {"name": "cucumber", "quantity": 1, "unit": null},
+      {"name": "yogurt", "quantity": 300, "unit": "g"},
+      {"name": "cumin", "quantity": 0.5, "unit": "tsp"},
+      {"name": "salt", "quantity": null, "unit": "to taste"}
+    ],
+    "instructions": [
+      "Dry-roast the cumin in a pan for 1 minute, then crush it.",
+      "Grate the cucumber and squeeze out the extra liquid.",
+      "Whisk the yogurt until smooth and stir in the cucumber, cumin, and salt.",
+      "Chill for 15 minutes before serving."
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Cucumber Tomato Salad",
+    "category": "salad",
+    "difficulty": "easy",
+    "cooking_time_minutes": 10,
+    "servings": 2,
+    "ingredients": [
+      {"name": "cucumber", "quantity": 1, "unit": null},
+      {"name": "tomato", "quantity": 2, "unit": null},
+      {"name": "onion", "quantity": 1, "unit": null},
+      {"name": "salt", "quantity": null, "unit": "to taste"}
+    ],
+    "instructions": [
+      "Dice the cucumber and tomatoes. Slice the onion thinly.",
+      "Toss everything together in a bowl with salt.",
+      "Let it rest for 5 minutes, then serve."
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Banana Pancakes",
+    "category": "breakfast",
+    "difficulty": "easy",
+    "cooking_time_minutes": 25,
+    "servings": 3,
+    "ingredients": [
+      {"name": "banana", "quantity": 2, "unit": null},
+      {"name": "egg", "quantity": 2, "unit": null},
+      {"name": "flour", "quantity": 150, "unit": "g"},
+      {"name": "milk", "quantity": 200, "unit": "ml"},
+      {"name": "butter", "quantity": 20, "unit": "g"},
+      {"name": "sugar", "quantity": 1, "unit": "tbsp"}
+    ],
+    "instructions": [
+      "Mash the bananas well in a bowl.",
+      "Whisk in the eggs, milk, and sugar, then fold in the flour until just combined.",
+      "Melt a little of the butter in a pan over medium heat and pour in about a quarter cup of batter.",
+      "Cook for 2 minutes until bubbles appear, flip, and cook 1-2 minutes more. Repeat with the remaining butter and batter. These pancakes come out thin and soft."
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Rice Pudding",
+    "category": "dessert",
+    "difficulty": "medium",
+    "cooking_time_minutes": 45,
+    "servings": 4,
+    "ingredients": [
+      {"name": "rice", "quantity": 80, "unit": "g"},
+      {"name": "milk", "quantity": 1000, "unit": "ml"},
+      {"name": "sugar", "quantity": 50, "unit": "g"}
+    ],
+    "instructions": [
+      "Rinse the rice.",
+      "Bring the milk to a gentle boil in a heavy pan, then add the rice.",
+      "Simmer on low heat for 30-35 minutes, stirring often so it does not stick, until thick and creamy.",
+      "Stir in the sugar and cook 5 more minutes. Serve warm or chilled."
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Aloo Paratha",
+    "category": "main",
+    "difficulty": "hard",
+    "cooking_time_minutes": 45,
+    "servings": 4,
+    "ingredients": [
+      {"name": "flour", "quantity": 300, "unit": "g"},
+      {"name": "water", "quantity": 150, "unit": "ml"},
+      {"name": "potato", "quantity": 300, "unit": "g"},
+      {"name": "chili", "quantity": 2, "unit": null},
+      {"name": "oil", "quantity": 4, "unit": "tbsp"},
+      {"name": "salt", "quantity": null, "unit": "to taste"}
+    ],
+    "instructions": [
+      "Mix the flour with 1/2 teaspoon of salt and the water. Knead for 5 minutes and rest the dough for 15 minutes.",
+      "Boil the potatoes until tender, peel, and mash them with the finely chopped chilies and salt.",
+      "Divide the dough into 8 balls. Flatten one, place a spoonful of potato filling in the middle, seal it, and roll out gently.",
+      "Cook on a hot pan with a little oil for 2-3 minutes per side until golden spots appear. Repeat with the rest. Serve hot."
+    ]
+  }
+]
